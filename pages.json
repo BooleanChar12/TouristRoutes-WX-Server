@@ -1,17 +1,71 @@
 {
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				// "navigationBarTitleText": "uni-app"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/workbench/workbench",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order-ing/order-ing",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单进行中",
+                "enablePullDownRefresh": false
+            }
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		// "navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
 	},
-	"uniIdRouter": {}
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#767676",
+		"selectedColor": "#FF5303",
+		"list": [
+			{
+				"text": "进行中",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/flower3.png",
+				"selectedIconPath": "static/img/flower3-xuaanzhong.png"
+			},
+			{
+				"text":"工作台",
+				"pagePath": "pages/workbench/workbench",
+				"iconPath": "static/img/box.png",
+				"selectedIconPath": "static/img/box-xuanzhong.png"
+			},
+			{
+				"text":"我的",
+				"pagePath": "pages/my/my",
+				"iconPath": "static/img/user-3-line.png",
+				"selectedIconPath": "static/img/user-3-line-xuanzhong.png"
+			}
+		]
+	}
 }
