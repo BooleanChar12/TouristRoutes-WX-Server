@@ -74,8 +74,8 @@
 			border-radius: 15rpx; // 边框圆角半径
 			display: flex;
 			margin-bottom: 20px;
-			// flex-direction: row; /* 将布局改为行方向 */
-			// align-items: center;
+			flex-direction: row; /* 将布局改为行方向 */
+			align-items: center;
 			.box-img{
 				image{
 					width:280rpx;
@@ -88,14 +88,14 @@
 				flex-direction: column;
 				.abstract{
 					font-size: 20rpx;
-					margin-top: 25rpx;
+					margin-top: 20rpx;
 					color:#6E6E6E;
 				}
 				.message{
 					display: flex;
 					flex-direction: row;
 					margin-top: 25rpx;
-					font-size: 26rpx;
+					font-size: 25rpx;
 					view{
 						margin-right: 35rpx;
 					}
