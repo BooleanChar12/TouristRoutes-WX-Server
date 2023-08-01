@@ -71,6 +71,35 @@
             }
             
         }
+        ,{
+            "path" : "pages/my/my_data",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的资料",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my_certificate",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的证书",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my_money",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的佣金",
+				"navigationBarBackgroundColor": "#FF5303",
+				"navigationBarTextStyle": "white",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
